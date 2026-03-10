@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playful / Musical</title>
+    <style>
+        body {
+            font-family: "Comic Neue", "Trebuchet MS", sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+            background-color: #fff8e7; /* light playful background */
+            background-image: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d'); /* musical background */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        /* Overlay for readability */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 248, 231, 0.7); /* soft playful tint */
+            z-index: -1;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 1rem;
+            background-color: rgba(255, 182, 193, 0.85); /* cheerful pink */
+            color: #222;
+            border-bottom: 3px solid #ff69b4;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 2px;
+            text-shadow: 0 0 8px #ff69b4;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #ff69b4;
+            margin: 0;
+        }
+
+        main {
+            padding: 3rem;
+            text-align: center;
+        }
+
+        main p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            color: #222;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 1.2rem 0;
+        }
+
+        ul a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #ff69b4;
+            border: 2px solid #ff1493;
+            padding: 0.8rem 1.5rem;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        ul a:hover {
+            background-color: #ff1493;
+            color: #fff;
+            box-shadow: 0 0 12px #ff69b4;
+            transform: rotate(-3deg) scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>🎶 Playful / Musical</h1>
+    </header>
+    <hr>
+    <main>
+        <div>
+            <p>Verse that explores playful and musical themes.</p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="Forestry.html" target="_blank">🌲 FORESTRY</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>

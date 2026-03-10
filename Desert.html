@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert</title>
+    <style>
+        body {
+            font-family: "Merriweather", Georgia, serif;
+            margin: 0;
+            padding: 0;
+            color: #3e2f1c;
+            background-color: #fdf6e3; /* soft sand tone */
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_GEJbiF0wl8rQJmG_1DaoFadYI0fc0RIDg&s');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        /* Overlay for readability */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(253, 246, 227, 0.65); /* warm desert tint */
+            z-index: -1;
+        }
+
+        header {
+            text-align: center;
+            padding: 2.5rem 1rem;
+            background-color: rgba(210, 180, 140, 0.85); /* tan */
+            color: #3e2f1c;
+            border-bottom: 3px solid #8b4513; /* earthy brown */
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px #deb887;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #8b4513;
+            margin: 0;
+        }
+
+        main {
+            padding: 3rem;
+            text-align: center;
+        }
+
+        pre {
+            font-size: 1.2rem;
+            color: #3e2f1c;
+            background-color: rgba(255, 255, 240, 0.85); /* ivory parchment */
+            padding: 1.5rem;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.8;
+            box-shadow: 0 0 12px rgba(210, 180, 140, 0.4);
+            white-space: pre-wrap; /* ensures wrapping */
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: #fff;
+            background-color: #8b4513;
+            border: 2px solid #deb887;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            display: inline-block;
+            margin: 1rem;
+        }
+
+        a:hover {
+            background-color: #deb887;
+            color: #3e2f1c;
+            box-shadow: 0 0 10px #8b4513;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>🏜️ DESERT</h1>
+    </header>
+    <hr>
+    <main>
+        <div>
+            <pre>
+A lifeless home of loneliness,
+A chaotic silence of homeliness,
+Where the sweepy gale toggles the land 
+And strolls the burning sand,
+Where the vast stretch of infinite miles
+Requests a drop of Nile.
+
+And the fury too hot as the burning ball
+Which deserts the unfertile soil at all,
+Where the flora is a misery, the fauna raided by treachery,
+Where none holds authority,
+In this unparallel land of sonority.
+            </pre>
+        </div>
+        <div>
+            <a href='Desert_summary.html' target="_blank">Explanation</a>
+            <a href='Desert_Poeticdevice.html' target="_blank">Poetic Devices</a>
+        </div>
+    </main>
+</body>
+
+</html>
