@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeward Bound</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            background: url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?fm=jpg&q=60&w=3000&auto=format&fit=crop') no-repeat center center/cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+        }
+
+        /* Overlay */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            letter-spacing: 2px;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .poem-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px 40px;
+            border-radius: 12px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+            max-width: 700px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .poem-box pre {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            white-space: pre-wrap;
+        }
+
+        .links {
+            margin-top: 25px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 25px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .links a:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🏡 HOMEWARD BOUND</h1>
+    </header>
+
+    <main>
+        <div class="poem-box">
+            <pre>
+Abound beyond the door ajar,
+In life to unknown lands afar,
+The curious strolls to worthy grands,
+Peaks to canyons, endless plans.
+
+All through the drill and thrill,
+A smitten mind therefore gets grilled;
+Walks back to pavilion for it has found
+The pleasure of at last going homeward bound.
+            </pre>
+
+            <div class="links">
+                <a href="Homeward_Bound_summary.html" target="_blank">Explanation</a>
+                <a href="Homeward_Bound_pd.html" target="_blank">Poetic Devices</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
